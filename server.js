@@ -3,7 +3,6 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 const app = express();
-require('dotenv').config()
 app.use(logger("dev"));
 
 app.use(compression());
